@@ -1,0 +1,14 @@
+{
+  "name": "mean-jokes",
+  "version": "1.0.0",
+  "description": "Tells mean jokes. Sources the best material from a bundled MCP server.",
+  "author": {
+    "name": "Open Claw"
+  },
+  "mcpServers": {
+    "mean-jokes": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/server.ts"]
+    }
+  }
+}
